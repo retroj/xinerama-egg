@@ -1,0 +1,8 @@
+;; -*- scheme -*-
+
+(compile xinerama.scm -j xinerama -s -O2 -d0 -lXinerama)
+(compile xinerama.import.scm -s -O2 -d0 -lXinerama)
+
+(install-extension
+ 'xineramma
+ '("xinerama.so" "xinerama.import.so"))
