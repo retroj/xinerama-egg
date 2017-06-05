@@ -1,6 +1,6 @@
 ;; -*- scheme -*-
 
 ((license "BSD")
- (category ffi)
+ (category graphics)
  (author "John J. Foerch")
  (synopsis "Xinerama bindings"))
