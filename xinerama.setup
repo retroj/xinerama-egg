@@ -4,6 +4,6 @@
 (compile xinerama.import.scm -s -O2 -d0 -lXinerama)
 
 (install-extension
- 'xineramma
+ 'xinerama
  '("xinerama.so" "xinerama.import.so")
  '((version "1.0.0")))
