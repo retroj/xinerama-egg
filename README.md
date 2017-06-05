@@ -35,6 +35,16 @@ For bug reports, feature requests, and development versions, visit the
 
 * **(xinerama-screen-info? x) => bool**
 
+* **(xinerama-screen-info-screen-number screen-info) => int**
+
+* **(xinerama-screen-info-x-org screen-info) => int**
+
+* **(xinerama-screen-info-y-org screen-info) => int**
+
+* **(xinerama-screen-info-width screen-info) => int**
+
+* **(xinerama-screen-info-height screen-info) => int**
+
 
 ## Examples
 
@@ -45,11 +55,11 @@ For bug reports, feature requests, and development versions, visit the
   (for-each
    (lambda (screen)
     (printf "~A ~A ~A ~A ~A~%"
-            (xinerama-screen-info-screen-number di)
-            (xinerama-screen-info-x-org di)
-            (xinerama-screen-info-y-org di)
-            (xinerama-screen-info-width di)
-            (xinerama-screen-info-height di)))
+            (xinerama-screen-info-screen-number screen)
+            (xinerama-screen-info-x-org screen)
+            (xinerama-screen-info-y-org screen)
+            (xinerama-screen-info-width screen)
+            (xinerama-screen-info-height screen)))
    (xinerama-query-screens xdisplay)))
 ```
 
