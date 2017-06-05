@@ -5,4 +5,5 @@
 
 (install-extension
  'xineramma
- '("xinerama.so" "xinerama.import.so"))
+ '("xinerama.so" "xinerama.import.so")
+ '((version "1.0.0")))
