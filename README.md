@@ -23,7 +23,6 @@ For bug reports, feature requests, and development versions, visit the
 
 
 ## API
-### Version
 
 * **(xinerama-query-extension display) => (event-base error-base) or #f**
 

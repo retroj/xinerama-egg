@@ -24,7 +24,6 @@ For bug reports, feature requests, and development versions, visit the
 
 
 == API
-=== Version
 
 <procedure>(xinerama-query-extension display) => (event-base error-base) or #f</procedure>
 
