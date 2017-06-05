@@ -37,7 +37,7 @@
      xinerama-active?
      xinerama-query-screens)
 
-(import chicken scheme foreign foreigners)
+(import chicken scheme foreign)
 
 (use (srfi 1))
 
